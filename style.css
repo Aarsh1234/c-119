@@ -1,0 +1,32 @@
+.close{
+    float: right;
+}
+body{
+    background-color: aqua;
+}
+h1{
+   background-color: pink;
+   text-align: center;
+}
+#show_sketch{
+    background-color: plum;
+    float: right;
+}
+canvas{
+    border: 2px blue dotted;
+    border-radius: 40px;
+    animation-duration: 5s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 1px 1px 40px blue;
+    }
+    to{
+        box-shadow: 1px 1px 40px red;
+    }
+}
+label{
+    margin-left: 250px;
+}
